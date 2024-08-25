@@ -36,7 +36,7 @@ To download and run this project locally, follow these steps:
    Change into the project directory:
 
    ```bash
-   cd project-directory
+   cd training portfolio website
    ```
 
 3. **Open the HTML File**:
