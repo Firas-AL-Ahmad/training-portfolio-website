@@ -4,6 +4,8 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   text-align: center;
   font-family: "Harmattan", sans-serif;
   font-size: 20px;
@@ -11,8 +13,8 @@ body {
 
 .photo {
   width: 200px;
-  height: 200px;
-  border-radius: 200px;
+  height: 180px;
+  border-radius: 50%;
 }
 
 /* Create two equal columns that floats next to each other */
@@ -32,7 +34,8 @@ body {
 
 @media screen and (max-width: 800px) {
   .column {
-    width: 100%; /* The width is 100%, when the viewport is 1000px or smaller */
+    width: 100%;
+    /* The width is 100%, when the viewport is 1000px or smaller */
   }
 }
 
@@ -73,57 +76,115 @@ li.nav-style-li a:hover {
   display: block;
   height: 14px;
 }
+
 .bar span {
   height: 14px;
   float: left;
   background: teal;
 }
-.java {
+
+.html {
   width: 90%;
-  animation: java 2s;
+  animation: html 2s;
 }
-.android {
-  width: 50%;
-  animation: android 2s;
+
+.css {
+  width: 70%;
+  animation: css 2s;
 }
+
 .javascript {
   width: 80%;
   animation: javascript 2s;
 }
-.html {
+
+.react {
   width: 65%;
-  animation: html 2s;
+  animation: react 2s;
 }
-@keyframes java {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
+
+.api {
+  width: 90%;
+  animation: api 2s;
 }
-@keyframes android {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 50%;
-  }
+
+.express {
+  width: 80%;
+  animation: express 2s;
 }
-@keyframes javascript {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 80%;
-  }
+
+.mongodb {
+  width: 75%;
+  animation: mongodb 2s;
 }
+
 @keyframes html {
   0% {
     width: 0%;
   }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+
   100% {
     width: 65%;
+  }
+}
+
+@keyframes api {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes express {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes mongodb {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 75%;
   }
 }
 
@@ -135,6 +196,7 @@ li.nav-style-li a:hover {
   padding: 20px;
   padding-top: 0px;
 }
+
 .right {
   float: right;
   width: 70%;
@@ -238,6 +300,7 @@ li.nav-style-li a:hover {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+
   /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
@@ -273,14 +336,17 @@ li.nav-style-li a:hover {
 /* End of Experience section */
 
 .footer {
-  height: 40px;
+  height: 100px;
   width: 100%;
   background-color: #333;
   color: white;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.social{
+.social {
   width: 20px;
   margin: 5px;
 }
