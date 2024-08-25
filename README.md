@@ -1,6 +1,6 @@
 # Training Portfolio Website
 
-<img src="./images/icon_email.png" alt="Project Screenshot">
+<img src="https://github.com/user-attachments/assets/4786eef5-396e-4d5f-89d6-10342f0f252e" alt="Project Screenshot">
 
 ## Overview
 
